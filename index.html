@@ -8,15 +8,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="nav">
-            <h1>Some User</h1>
-            <div>
-                <p id="like">1 Like(s)</p>
-                <button id="like-button" onclick="clickLike(this);">Like</button>
+    <div class="navbar">
+        <h1 class="title">Network</h1>
+        <h1>Your Feed</h1>
+    </div>
+    <div class="body">
+        <div class="sidebar">
+            <div class="perfile">
+                <img src="img/perfil.png" alt="">
+                <a href="">Add an avatar</a>
+                <h1>James Doe</h1>
             </div>
         </div>
-        <h2>This is some filler text, it can soy anything we like</h2>
+        <div class="post">
+            <div class="container">
+                <div class="nav">
+                    <h1>Neil M</h1>
+                    <div>
+                        <p class="like" id="like-1">1 Like(s)</p>
+                        <button class="like-button" id="like-button1" onclick="clickLike1(this);">Like</button>
+                    </div>
+                </div>
+                <h2>I just set up this new discord bot, let me know what you all think. <a href="">link</a></h2>
+            </div>
+            <div class="container">
+                <div class="nav">
+                    <h1>Nichole K</h1>
+                    <div>
+                        <p class="like" id="like-2">1 Like(s)</p>
+                        <button class="like-button" id="like-button2" onclick="clickLike2(this);">Like</button>
+                    </div>
+                </div>
+                <h2>Just finished my <a href="">next comic</a>, check it out.</h2>
+            </div>
+            <div class="container">
+                <div class="nav">
+                    <h1>Jim R</h1>
+                    <div>
+                        <p class="like" id="like-3">1 Like(s)</p>
+                        <button class="like-button" id="like-button3" onclick="clickLike3(this);">Like</button>
+                    </div>
+                </div>
+                <h2>I can't stop listening to the <a href="">new album</a>. Who else is liking it ?</h2>
+            </div>
+        </div>
     </div>
 </body>
 </html>

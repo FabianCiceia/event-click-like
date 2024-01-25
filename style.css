@@ -1,11 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     display: flex;
-    padding: 50px 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.body{
+    display: flex;
+    padding-top: 50px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar  .title{
+    display: block;
+    background-color: #000;
+    width: 850px;
+    margin: 0;
+    height:50px;
+    padding: 20px;
+    color: white;
+}
+.navbar *{
+    padding: 10px;
+}
+.perfile{
+    border: solid #333;
+    padding: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-right: 40px;
+}
+.perfile img{
+    margin: 20px;
+}
+.perfile  a{
+    font-size: 25px;
 }
 .container{
     border: solid #333;
     padding: 10px;
-    max-width: 400px;
+    max-width: 600px;
+    height: auto;
+    margin: 10px;
+}
+.container *{
+    margin: 5px;
 }
 .nav {
     display: flex;
@@ -13,12 +62,12 @@ body{
     align-items: center;
 }
 
-#like{
+.like{
     display: inline-block;
     padding: 20px;
     font-size: 20px;
 }
-#like-button{
+.like-button{
     padding: 15px 30px;
     font-size: 20px;
     background-color: #FFD966;
